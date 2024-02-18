@@ -17,15 +17,6 @@ pipeline {
             }
         }
     }
-        stage('Get_Playbook') {
-
-            steps {
-
-                git 'https://github.com/sreechoudhary/gspann.git'
-
-            }
-
-        }
 
     }
 
