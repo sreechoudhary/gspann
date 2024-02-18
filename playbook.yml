@@ -1,0 +1,8 @@
+---
+- name: Create temp file on nodes
+  hosts: all
+  tasks:
+    - name: Create temp file
+      ansible.builtin.file:
+        path: /tmp/srilaxmi.txt
+        state: touch
