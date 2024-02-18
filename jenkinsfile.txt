@@ -2,7 +2,7 @@ pipeline {
 
     agent any
     parameters {
-        string(name: 'JSON_DATA', defaultValue: '{"hosts": ["172.31.93.220"]}', description: 'Enter JSON data containing list of IP addresses')
+        string(name: 'JSON_DATA', defaultValue: '{"hosts": [""]}', description: 'Enter JSON data containing list of IP addresses')
 }
     stages {
  stage('Execute Ansible Playbook') {
