@@ -27,15 +27,5 @@ pipeline {
 
         }
 
-        stage('Run_Playbook') {
-
-            steps {
-
-                sh 'ansible-playbook playbook.yml'
-
-            }
-
-        }
-
     }
 
