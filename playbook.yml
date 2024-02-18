@@ -4,5 +4,5 @@
   tasks:
     - name: Create temp file
       ansible.builtin.file:
-        path: /tmp/srilaxmi.txt
+        path: /tmp/file.txt
         state: touch
